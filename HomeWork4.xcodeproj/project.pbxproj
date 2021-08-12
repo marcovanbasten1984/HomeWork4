@@ -3,12 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844B3B0126C5BE50004BEA1E /* WolfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B3B0026C5BE4F004BEA1E /* WolfViewController.swift */; };
+		844B3B0326C5BE76004BEA1E /* Piglet1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B3B0226C5BE76004BEA1E /* Piglet1ViewController.swift */; };
+		844B3B0526C5BE89004BEA1E /* Piglet2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B3B0426C5BE89004BEA1E /* Piglet2ViewController.swift */; };
+		844B3B0726C5BE9B004BEA1E /* Piglet3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B3B0626C5BE9B004BEA1E /* Piglet3ViewController.swift */; };
 		847F754C26C1CEE4005E2BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F754B26C1CEE4005E2BCA /* AppDelegate.swift */; };
-		847F754E26C1CEE4005E2BCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F754D26C1CEE4005E2BCA /* ViewController.swift */; };
 		847F755126C1CEE4005E2BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847F754F26C1CEE4005E2BCA /* Main.storyboard */; };
 		847F755326C1CEE4005E2BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847F755226C1CEE4005E2BCA /* Assets.xcassets */; };
 		847F755626C1CEE4005E2BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847F755426C1CEE4005E2BCA /* LaunchScreen.storyboard */; };
@@ -34,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		844B3B0026C5BE4F004BEA1E /* WolfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WolfViewController.swift; sourceTree = "<group>"; };
+		844B3B0226C5BE76004BEA1E /* Piglet1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piglet1ViewController.swift; sourceTree = "<group>"; };
+		844B3B0426C5BE89004BEA1E /* Piglet2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piglet2ViewController.swift; sourceTree = "<group>"; };
+		844B3B0626C5BE9B004BEA1E /* Piglet3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piglet3ViewController.swift; sourceTree = "<group>"; };
 		847F754826C1CEE4005E2BCA /* HomeWork4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847F754B26C1CEE4005E2BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		847F754D26C1CEE4005E2BCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		847F755026C1CEE4005E2BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		847F755226C1CEE4005E2BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847F755526C1CEE4005E2BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				847F754B26C1CEE4005E2BCA /* AppDelegate.swift */,
-				847F754D26C1CEE4005E2BCA /* ViewController.swift */,
 				847F754F26C1CEE4005E2BCA /* Main.storyboard */,
 				847F755226C1CEE4005E2BCA /* Assets.xcassets */,
 				847F755426C1CEE4005E2BCA /* LaunchScreen.storyboard */,
 				847F755726C1CEE4005E2BCA /* Info.plist */,
+				844B3B0026C5BE4F004BEA1E /* WolfViewController.swift */,
+				844B3B0226C5BE76004BEA1E /* Piglet1ViewController.swift */,
+				844B3B0426C5BE89004BEA1E /* Piglet2ViewController.swift */,
+				844B3B0626C5BE9B004BEA1E /* Piglet3ViewController.swift */,
 			);
 			path = HomeWork4;
 			sourceTree = "<group>";
@@ -208,7 +217,7 @@
 				};
 			};
 			buildConfigurationList = 847F754326C1CEE4005E2BCA /* Build configuration list for PBXProject "HomeWork4" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847F754E26C1CEE4005E2BCA /* ViewController.swift in Sources */,
+				844B3B0526C5BE89004BEA1E /* Piglet2ViewController.swift in Sources */,
+				844B3B0726C5BE9B004BEA1E /* Piglet3ViewController.swift in Sources */,
+				844B3B0326C5BE76004BEA1E /* Piglet1ViewController.swift in Sources */,
+				844B3B0126C5BE50004BEA1E /* WolfViewController.swift in Sources */,
 				847F754C26C1CEE4005E2BCA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HomeWork4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = skillUp.HomeWork4;
@@ -426,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HomeWork4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = skillUp.HomeWork4;
@@ -507,6 +521,7 @@
 				847F757226C1CEE5005E2BCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		847F757326C1CEE5005E2BCA /* Build configuration list for PBXNativeTarget "HomeWork4Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				847F757526C1CEE5005E2BCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		847F757626C1CEE5005E2BCA /* Build configuration list for PBXNativeTarget "HomeWork4UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				847F757826C1CEE5005E2BCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
