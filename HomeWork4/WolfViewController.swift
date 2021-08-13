@@ -25,6 +25,11 @@ class WolfViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func piglet3ButtonTapped() {
+        let storyboard = UIStoryboard(name: "Main", bundle: .main)
+        let piglet3ViewController = storyboard.instantiateViewController(withIdentifier: "Piglet3ViewController")
+        present(piglet3ViewController, animated: true)
+    }
 
     /*
     // MARK: - Navigation

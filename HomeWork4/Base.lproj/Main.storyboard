@@ -55,7 +55,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Piglet 3"/>
                                 <connections>
-                                    <segue destination="4RU-Vp-7gn" kind="presentation" modalPresentationStyle="fullScreen" id="Jbf-3N-i74"/>
+                                    <action selector="piglet3ButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="LQF-eL-VSa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -128,7 +128,7 @@
         <!--Piglet3-->
         <scene sceneID="8TA-hG-Vdd">
             <objects>
-                <viewController title="Piglet3" id="4RU-Vp-7gn" customClass="Piglet3ViewController" customModule="HomeWork4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Piglet3ViewController" title="Piglet3" id="4RU-Vp-7gn" customClass="Piglet3ViewController" customModule="HomeWork4" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ajz-Z8-aIg"/>
                         <viewControllerLayoutGuide type="bottom" id="FZB-ma-JzK"/>
